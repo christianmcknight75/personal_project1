@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 8em;
+    margin-right: 8em;
+    position: sticky;
+    top: 0;
+
+}
+
+#tabs > a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    padding: 5px;
+    justify-content: space-between;
+
+}
+
+#tab > a:hover{
+    font-size: large;
+    color: white;
+    transition: all 0.3s ease-in;
+    background-color: black;
+}
+
+body{
+    background-color: cornflowerblue;
+    
+}
+
+#intro{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro > img{
+    border-radius: 30%;
+    width: 240px;
+    height: 320px;
+}
+
+#intro > a{
+    color: white;
+    text-decoration: solid;
+    transition: ease-out 0.3s;
+}
+.intro-link > a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: ease-out 0.3s;
+}
+
+.intro-link > a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.language{
+    color:black;
+    font-size: 40px;
+}
+
+.intro-link{
+    height: 100px;
+}
+
+
+img{
+    size: 30px;
+}
+
+.download-links{
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.download-button{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 8px;
+    color: black;
+    transition: ease-out 0.3s;
+    margin: 0px 10px;
+}
+
+.download-button:hover{
+    color: white;
+    background-color: black;
+}
+    
